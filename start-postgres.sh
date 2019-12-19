@@ -1,0 +1,1 @@
+docker run -v /home/maximilian/git/web-app-prototype-postgres/data-store:/var/lib/postgresql/data -e POSTGRES_PASSWORD=Welcome1! -p 5432:5432 postgis
