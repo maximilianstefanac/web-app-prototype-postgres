@@ -7,5 +7,4 @@ ENV POSTGRES_USER geoapp
 ENV POSTGRES_PASSWORD Welcome1!
 ENV POSTGRES_DB geoapp
 
-
-COPY init.sql /docker-entrypoint-initdb.d/
+COPY init.sql /docker-entrypoint-initdb.d/init.sql
